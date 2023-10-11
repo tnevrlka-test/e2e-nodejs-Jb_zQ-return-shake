@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xi51
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-xzrx-tenant/e2e-nodejs/devfile-sample-xi51@sha256:c0f8f7c395e7bfe8b967efe4ed5177a7c2c7ca396daa06a8fd8a9aca37e50170
         name: my-nodejs
         ports:
         - containerPort: 3001
